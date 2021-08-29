@@ -34,8 +34,7 @@ email_contact = 'russell.thorsteinsson@gmail.com'
 # **********************************************************************************************************************
 
 
-# With BeautifulSoup and requests, scrape current stock data from Yahoo for tickers IFP, CFP, and WFG. Write this data
-# to a csv file
+# With BeautifulSoup and requests, scrape current stock data from Yahoo for stock symbols. Write this data to a csv file
 
 
 def get_stock_metrics(stock):
