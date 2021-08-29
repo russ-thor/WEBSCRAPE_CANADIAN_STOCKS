@@ -6,12 +6,20 @@
 - Created: August 2021
 
 # description 
-This script was created to scrape Canadian stocks from https://ca.finance.yahoo.com/ (ticker must end with '.TO' - although you can easily this part of the script). 
+This script was created to scrape Canadian stock metrics from https://ca.finance.yahoo.com/ (ticker must end with '.TO' - although you can easily this part of the script). 
+
+# installation
+- pip install bs4
+- pip install plotly==5.2.1
+- pip install ezgmail (setup credentials/tokens: https://pypi.org/project/EZGmail/)
+- pip install pandas
+- pip install plotly
+- pip install plotly==5.2.1
 
 # required inputs
 Before running the scripts you must update (starting on line 28):
 - the stock tickers you want to scrape
-- the title of the figure that will be built with Plotly
+- the title of the figure that will be built with plotly
 - the email contact you want the resulting graphs sent to.
 
 # function descriptions
