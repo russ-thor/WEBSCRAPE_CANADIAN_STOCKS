@@ -30,7 +30,7 @@ stock1 = 'IFP'
 stock2 = 'CFP'
 stock3 = 'WFG'
 stocks_to_analyze = [stock1, stock2, stock3]
-email_contact = 'russell.thorsteinsson@gmail.com'
+email_contact = 'EMAIL HERE'
 # **********************************************************************************************************************
 
 
