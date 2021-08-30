@@ -6,7 +6,7 @@
 - Created: August 2021
 
 # description 
-This script was created to scrape Canadian stock metrics from https://ca.finance.yahoo.com/ (ticker must end with '.TO' - although you can easily this part of the script). 
+This script was created to scrape Canadian stock metrics from https://ca.finance.yahoo.com/ (ticker must end with '.TO' - although you can easily this part of the script). Furthermore, a figure containing subplot graphs will be produced for each stock ticker and the static (jpg) and dynamic (html) results will be saved and emailed to the specificed contact(s) in the script. Ideally, you set up a scheduled task that runs the script Mon-Fri to continue the stock data collection - set this to run after market hours to ensure the close price is correct (there is no close price to scrape, just the current price which fluctuates during market hours). The figure/subplots will not be very insightful until data has been collected for at least a few days (limited data to start off).
 
 # installation
 - pip install bs4
