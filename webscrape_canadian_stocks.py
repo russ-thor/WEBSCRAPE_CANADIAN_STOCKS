@@ -183,7 +183,7 @@ def plot_stock_metrics(stock_list):
     ezgmail.send(
         email_contact,
         f'Lumber Stocks {str(datetime.date.today())}',
-        f'Here are the lumbbrer stock prices for {str(datetime.date.today())}',
+        f'Here are the lumber stock prices for {str(datetime.date.today())}',
         [static_graph, dynamic_graph],
     )
 
