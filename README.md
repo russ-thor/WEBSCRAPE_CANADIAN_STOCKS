@@ -35,4 +35,5 @@ The plot_stock_metrics function will:
 - using the ezgmail module, email the jpg and html link to the contact specified.
 
 # example graph output (interactive html version is emailed)
-![Lumber_Stock_Prices_2021-08-29](https://user-images.githubusercontent.com/87350911/131263806-aaaeb4b7-0eba-4448-bb4e-98cce8633daa.png)
+![Lumber_Stock_Prices_2021-09-13](https://user-images.githubusercontent.com/87350911/133188132-046f7605-e3a4-4396-a507-8e80bf5682be.png)
+
